@@ -1,0 +1,11 @@
+One workaround might involve using a different approach to achieve the desired visual effect, perhaps utilizing multiple `box-shadow` instances with smaller blur radii to simulate the intended result, or employing a background gradient as an alternative.
+
+```css
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  box-shadow: inset 0 0 50px 25px rgba(0,0,0,0.5), inset 0 0 25px 12.5px rgba(0,0,0,0.25);
+}
+```
+This approach might not perfectly reproduce the visual effect of the original, but it avoids the unexpected expansion of the shadow.
